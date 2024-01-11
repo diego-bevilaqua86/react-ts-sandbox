@@ -15,11 +15,11 @@ export const App = () => {
     <Container className={ 'mt-3' }>
       <Row>
         <Col>
-          <ErrorBoundary fallback={<p className={'text-danger'}>Erro ao buscar lista de usuários</p>}>
-            <Suspense fallback={<p>Aguarde, carregando...</p>}>
+          {/* <ErrorBoundary fallback={<p className={'text-danger'}>Erro ao buscar lista de usuários</p>}> */}
+            {/* <Suspense fallback={<p>Aguarde, carregando...</p>}> */}
               <UsersList />
-            </Suspense>
-          </ErrorBoundary>
+            {/* </Suspense> */}
+          {/* </ErrorBoundary> */}
         </Col>
       </Row>
     </Container>
